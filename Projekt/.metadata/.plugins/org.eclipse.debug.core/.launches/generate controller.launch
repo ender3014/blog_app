@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launchConfiguration type="org.radrails.rails.core.railsLaunch">
+<stringAttribute key="org.radrails.rails.core.railsLaunch.programArgs" value="script/generate controller "/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="false"/>
+<stringAttribute key="org.radrails.rails.core.railsLaunch.scriptType" value="ruby"/>
+<stringAttribute key="org.radrails.rails.core.railsLaunch.workingDir" value="C:\Sites\Projekt\Projekt 2"/>
+<stringAttribute key="org.radrails.rails.core.railsLaunch.processLabel" value="ruby (04/29/2013 2:43:08 PM)"/>
+<booleanAttribute key="org.eclipse.debug.ui.private" value="true"/>
+<stringAttribute key="org.radrails.rails.core.railsLaunch.requiresRefresh" value="true"/>
+<stringAttribute key="org.radrails.rails.core.railsLaunch.projectName" value="Projekt 2"/>
+</launchConfiguration>

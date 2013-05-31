@@ -1,0 +1,41 @@
+<h1>Panel Uzytkownika</h1>
+
+<p>ID Uzytkownika : <%= @id %></p>
+
+
+<%= form_tag '/account/start', :method => 'get' do %>
+  <p>
+    <%= text_field_tag :search, params[:search] %>
+    <%= submit_tag "Wyszukaj", :name => nil %>
+  </p>
+<% end %>
+
+<% if @projects %>
+	<%for wyswietl in @projects %>
+	<li>
+	
+	<%= form_for "Dodawanie", :url => { :action => "start" } do |f| %>
+	<%= f.label wyswietl.username, :size => 15  %>
+	<%=h f.hidden_field  "znajomy_imie", :value => wyswietl.username, :size => 15 %>	
+	<%= f.label wyswietl.user_surname, :size => 20  %>
+	<%=h f.hidden_field  "znajomy_nazwisko", :value => wyswietl.user_surname, :size => 20  %>	
+	|
+	<%= f.submit "Dodaj"%>
+	<% end %>
+	
+	<ul>
+	
+	</ul>
+	
+	</li>
+	<% end %>
+	
+	
+	
+	
+<% end %>
+
+<br>
+
+<p><a href="/account/logout">Wylogowanie</a></p>
+

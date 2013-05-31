@@ -1,0 +1,2 @@
+module WyszukiwarkaHelper
+end

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launchConfiguration type="org.radrails.rails.core.railsLaunch">
+<stringAttribute key="org.radrails.rails.core.railsLaunch.programArgs" value="1"/>
+<stringAttribute key="org.radrails.rails.core.railsLaunch.scriptType" value="rails"/>
+<stringAttribute key="org.radrails.rails.core.railsLaunch.workingDir" value="C:\Sites\Projekt"/>
+<stringAttribute key="org.radrails.rails.core.railsLaunch.processLabel" value="rails (05/03/2013 12:55:07 PM)"/>
+<stringAttribute key="org.radrails.rails.core.railsLaunch.requiresRefresh" value="true"/>
+<stringAttribute key="org.radrails.rails.core.railsLaunch.projectName" value="1"/>
+</launchConfiguration>

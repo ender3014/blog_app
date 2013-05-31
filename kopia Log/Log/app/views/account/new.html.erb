@@ -1,0 +1,31 @@
+<h1>Register here!</h1>
+
+<%= form_for "Uzytkownik", :url => { :action => "new" } do |f| %>
+
+<%= f.label "Nazwa Uzytkownika" %>
+
+<%= f.text_field "username" %>
+<br>
+
+<%= f.label "Haslo" %>
+
+<%= f.password_field "password" %>
+
+<br>
+<%= f.label "E-mail" %>
+
+<%= f.text_field "email" %>
+<br>
+
+<%= f.submit %>
+
+<% end %>
+
+<% if @save and @save.errors %>
+<ul>
+	<% @save.errors.full_messages.each do |err| %>
+	 <li><%= err %></li>
+<% end %>
+</ul>
+<% end %>
+<a href="/account/login">Sign in!</a>

@@ -1,0 +1,101 @@
+
+
+
+body { background-image: url(obrazek.jpg);
+
+p3 { text-color:red;
+}
+
+
+}
+
+
+
+html, body {
+	
+	color: #000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#top {
+	width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+#NAGLOWEK {
+	
+	height: 60px;	
+	
+}
+
+#MENU {
+	width: 150px;
+	float: right;
+	overflow: hidden;
+	background-color: #ccc;
+}
+
+#INFORMACJE {
+	width: 150px;
+	float: left;
+	overflow: hidden;
+	background-color: #ccc;
+}
+
+#TRESC {
+	width: 480px;
+	float: left;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+#STOPKA {
+	clear: both;
+	width: 100%;
+	background-color: #888;
+}
+
+ul, ul li {	
+	
+	
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	position: relative; left: -40%;
+
+	float: right;
+	
+	padding: 1px 1px 1px 1px;
+	border: 1px solid #000;
+}
+
+ul li {
+	
+	float: left;
+}
+
+ul a:link, ul a:visited {
+	
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	background: #000 url("tlo.gif") repeat-x center;
+	color: #fff;
+	padding: 10px 20px;
+	border-right: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+ul a:hover {
+	
+	background-color: blue;
+	background-image: url("tlo2.gif");
+}

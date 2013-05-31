@@ -1,0 +1,22 @@
+<h1>Rejestracja Tutaj</h1>
+
+<%= form_for "uzytkownik", :url => { :action => "nowe" } do |f| %>
+
+<%= f.label "nazwa_uzytkownika" %>
+
+<%= f.text_field "nazwa_uzytkownika" %>
+<br>
+
+<%= f.label "haslo" %>
+
+<%= f.password_field "haslo" %>
+<br>
+
+<%= f.label "email" %>
+
+<%= f.text_field "email" %>
+<br>
+
+<%= f.submit %>
+
+<% end %>

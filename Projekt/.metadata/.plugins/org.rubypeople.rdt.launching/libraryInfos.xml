@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libraryInfos>
+<libraryInfo home="f:\RailsInstaller\Ruby1.9.3" version="1.9.3">
+<bootpath>
+<entry path="f:/RailsInstaller/Ruby1.9.3/lib/ruby/site_ruby/1.9.1"/>
+<entry path="f:/RailsInstaller/Ruby1.9.3/lib/ruby/site_ruby/1.9.1/i386-msvcrt"/>
+<entry path="f:/RailsInstaller/Ruby1.9.3/lib/ruby/site_ruby"/>
+<entry path="f:/RailsInstaller/Ruby1.9.3/lib/ruby/vendor_ruby/1.9.1"/>
+<entry path="f:/RailsInstaller/Ruby1.9.3/lib/ruby/vendor_ruby/1.9.1/i386-msvcrt"/>
+<entry path="f:/RailsInstaller/Ruby1.9.3/lib/ruby/vendor_ruby"/>
+<entry path="f:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1"/>
+<entry path="f:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/i386-mingw32"/>
+</bootpath>
+</libraryInfo>
+</libraryInfos>

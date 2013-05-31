@@ -1,0 +1,30 @@
+<h1>Panel Uzytkownika</h1>
+<%= stylesheet_link_tag 'gmaps4rails' %>
+<p>ID Uzytkownika : <%= @id %></p>
+<br>
+<%= @test %>
+<%= form_for "Znajomi", :url => { :action => "start" } do |f| %>
+
+<%= f.label "Wyszukaj Znajomego" %>
+<%= f.text_field "znajomy" %>
+<br>
+
+<%= f.submit "Wyszukaj"%>
+<% end %>
+
+<% if @save and @save.errors %>
+<ul>
+	<% @save.errors.full_messages.each do |err| %>
+	 <li><%= err %></li>
+<% end %>
+</ul>
+<% end %>
+
+<%= gmaps4rails(@json) %>
+<div id="map_canvas"></div>
+
+
+
+
+<p><a href="/account/logout">Wylogowanie</a></p>
+

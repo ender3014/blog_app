@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  uz1: 1.5
+  uz2: 1.5
+
+two:
+  uz1: 1.5
+  uz2: 1.5

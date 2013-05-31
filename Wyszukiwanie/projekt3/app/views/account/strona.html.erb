@@ -1,0 +1,48 @@
+<head>
+
+	<link rel="Stylesheet" type="text/css" href="style.css" />
+	<meta name="Author" content="utor strony" />
+	<title>Strona gwna</title>
+</head>
+
+<body>
+
+
+
+<p3><%= date_select("article", "written_on", :order => [:day, :month, :year]) %></p3>
+
+
+
+
+<div id="top">
+	<div id="logo"><%=image_tag("logo.jpg")%>
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="top"> 
+	<div id="NAGLOWEK"> <ul>
+<li><%= button_to "Rejestracja", :action => "new" %></li>
+<li><%= button_to "Zaloguj", :action => "login" %></li>
+<li><%= button_to "Regulamin", :action => "new" %></li>
+
+</ul> 
+
+
+</div>
+	<div id="MENU"><%= text_area "post", "body", "cols" => 20, "rows" => 20 %> </div>
+	<div id="INFORMACJE">Dodatkowe informacje</div>
+	<div id="TRESC">Tresc strony</div>
+	<div id="STOPKA">Stopka serwisu</div>
+</div>
+
+
+</body>

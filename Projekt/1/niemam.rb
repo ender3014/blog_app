@@ -1,0 +1,2 @@
+class Niemam
+  end
